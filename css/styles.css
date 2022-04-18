@@ -1,0 +1,183 @@
+/* HTML Elements */
+body {
+  font-family: "Monteserrat";
+  font-size: 1.5rem;
+}
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Monteserrat";
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 2% 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Monteserrat light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  font-size: 0.9rem;
+}
+
+.fa-solid {
+  font-size: 5rem;
+  padding-bottom: 10%;
+  color: #fe526c;
+}
+
+.fa-solid:hover {
+  color: black;
+}
+
+.fa-brands {
+  padding: 0 2%;
+}
+
+/* Title */
+
+.title-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.dog-selfie {
+  width: 18%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* features */
+
+#features {
+  padding: 10% 10%;
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+
+#features h3 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+/* testimonials */
+
+#testimonials {
+  padding: 50%, 15%;
+  text-align: center;
+  background-color: #fe526c;
+}
+
+.testimonial-image {
+  padding: 2% 10%;
+  border-radius: 100%;
+}
+
+.testimonial-text {
+  color: white;
+  padding: 7% 7%;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+em.testimonial-text {
+  font-size: 1.5rem;
+}
+/* press */
+
+#press {
+  text-align: center;
+  padding: 5% 5%;
+  background-color: #fe526c;
+}
+
+/* pricing */
+
+#pricing {
+  text-align: center;
+  padding: 2% 2%;
+}
+
+.h2-black {
+  padding: 7% 10%;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+/* cta */
+#cta {
+  background-color: #fe526c;
+  text-align: center;
+  padding: 100px 100px;
+}
+
+.cta-heading {
+  color: white;
+  line-height: 100px;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  background-color: white;
+  padding: 10% 10%;
+}
+
+.container-fluid {
+  padding: 2% 15% 10%;
+}
+
+.press-logo {
+  width: 17%;
+  margin: 10px 10px 30px;
+}
+
+.card-heading {
+  color: black;
+  padding: 3% 3%;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+@media (max-width: 1150px) {
+  #title {
+    text-align: center;
+  }
+  .dog-selfie {
+    transform: rotate(0);
+    position: static;
+    width: 60%;
+    right: 50%;
+  }
+}
